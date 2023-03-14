@@ -1,0 +1,7 @@
+cache/
+content/*
+GPDSCK/settings.ini
+recent.toml
+xenia-canary.config.toml
+xenia.log
+*.bak

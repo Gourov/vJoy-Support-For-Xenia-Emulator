@@ -1,0 +1,54 @@
+
+(SOME GAMES DON'T WORK WITH vJOY in this case after you finish installing vjoy and configuring it, you also need to 
+ download x360ce, copy it where the game exe file is located, run it and after it downloads xinput1_3 click clear->auto->save.)
+
+How to use:
+
+First of all:
+If you have a gamepad connected to the pc REMOVE IT, 
+If you have another virtual gamepad program installed or another version of vjoy (unless it's 2.1.8) UNINSTALL IT.
+
+1.Install Vjoy
+2.Open GDSPCK.exe
+3.Press "Test" and "VJoy Settings"
+4.Configure vjoy and game controller settings to match the screenshot "settings.bmp"
+5.Change keybinds in GPDSCK to whatever u like ..
+6.Press F4 To run the script (F4 is the default key for "run the script" but u can change it to anything else)
+7.When you press F4 the settings window will close, to bring it back either press right-click->settings on the 
+	GPDSCK icon next to the clock (system tray), or press ctrl+backspace, or check the "Don't Close Settings Window" checkbox.
+
+	If there are no errors you should hear a Mario Sound and a message will appear on
+	the top side of the screen with the text "GPDSCK ON" (the message doesn't appear in full screen, only in
+	window or borderless)
+
+If anything goes wrong press CTRL-ALT-DEL (this will close GPDSCK)
+
+TIP:
+
+When you finish rebinding you should click on Test->Properties and press F4 to check if everything's working.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Some INFO:
+
+MouseWheel:
+	You can bind the mouse wheel up/down only to the 12 buttons and the DPAD.The mouse wheel will not work as a toggle button. 
+	
+About RawInputMode:
+	It's not 100% ready yet, i don't know if i'll fix it later but it does work well if the mouse has a low polling rate
+	under 500 or rly high DPI at ~7000+ so that's why i keept it, also there are some games like DragonBall Xenoverse 2
+	that work better with raw input .. 
+
+If you're wondering why i'd use GPDSCK for DBX2 (or Nier Automata):
+	It's because on keyboard/mouse some attacks are Broken, attacks like Knockback durring a combo, there's a similar bug
+	in nier automata, attack while running "Dash Attack" has a delay, using a gamepad the attack is almost instant. 
+	The camera is a bit glitchy so aiming is difficult and there's no dash key for keyboard/mouse users .. 
+	With GPDSCK small problems like these can be fixed untill a better solution comes (game patch).
+
+Known Bugs:
+	(this should be fixed i'm 99% sure it's not gonna be a problem, but just in case)
+	If keyboard/mouse just stop working (u can't even click anything on desktop) after u pressed f4 to stop the script
+	press CTRL-ALT-DEL, this will close GPDSCK and open the CTRL-ALT-DEL screen after u cancel or press esc everything 
+	should be back to normal.
+
+---------------------------------------------------------------------------------------------------------------------------------
